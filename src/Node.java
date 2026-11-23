@@ -1,10 +1,9 @@
-public class Node {
+class Node {
+    String data; //url
+    Node next;   // sonraki düğüm
 
-    String customerName;
-    Node next;
-
-    public Node(String customerName) {
-        this.customerName = customerName;
+    public Node(String data) {
+        this.data = data;
         this.next = null;
     }
 }
